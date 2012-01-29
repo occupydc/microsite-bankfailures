@@ -1,48 +1,50 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<style type='text/css'>
+	  body {
+	    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  }
+	  p {
+	    line-height: 20px;
+	  }
+	  a {
+	    color: #29A1E1;
+	    text-decoration: none;
+	  }
+	  a:hover {
+	    text-decoration: underline;
+	  }
+	  #mymap {
+	    position: absolute;
+	    top: 0;
+	    right: 400px;
+	    bottom: 0;
+	    left: 0;
+	  }
+	  #sidebar {
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    right: 0;
+	    width: 359px;
+	    background: #111;
+	    color: #fff;
+	    border-left:1px solid #000;
+	    padding: 20px;
+	  }
+	  .source {
+	    font-size: 80%;
+	  }
+	</style>
+</head>
 <body>
-  <div id="sidebar">
+  <div id='sidebar'>
     <h2>Tornadoes in the U.S. - 2010</h2>
     <p>This map shows every tornado that occurred in the United States in 2010. Sizes of the dots are based on F-scale. Hover over them to view detailed statistics.</p>
-    <p><span class="source">Source: <a href="http://www.weather.gov/">NOAA's National Weather Service</a></span></p>
+    <p><span class='source'>Source: <a href='http://www.weather.gov/'>NOAA's National Weather Service</a></span></p>
   </div>
-  <div id="mymap">
+  <div id='mymap'>
   </div>
 </body>
 </html>
-
-<style type="text/css">
-  body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  p {
-    line-height: 20px;
-  }
-  a {
-    color: #29A1E1;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  #mymap {
-    position: absolute;
-    top: 0;
-    right: 400px;
-    bottom: 0;
-    left: 0;
-  }
-  #sidebar {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 359px;
-    background: #111;
-    color: #fff;
-    border-left:1px solid #000;
-    padding: 20px;
-  }
-  .source {
-    font-size: 80%;
-  }
-</style>
